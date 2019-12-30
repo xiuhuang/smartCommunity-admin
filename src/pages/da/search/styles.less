@@ -1,0 +1,134 @@
+.searchCon {
+  width: 740px;
+  min-height: 480px;
+  margin: 80px auto 0;
+  border: 1px solid rgba(11, 155, 211, 1);
+  border-radius: 2px;
+  box-shadow: 0 1px 22px 1px rgba(11, 155, 211, 1);
+  h1 {
+    margin-top: 52px;
+    color: rgba(0, 184, 255, 1);
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 40px;
+    text-align: center;
+  }
+  .searchBox {
+    margin-top: 26px;
+    text-align: center;
+    input {
+      width: 470px;
+      height: 50px;
+      margin-right: -6px;
+      color: #0b9bd3;
+      font-size: 14px;
+      vertical-align: middle;
+      background: #0b1a36;
+      border: 1px solid #0b9bd3;
+      border-radius: 2px 0 0 2px;
+      &::placeholder {
+        color: #0b9bd3;
+      }
+    }
+    button {
+      width: 90px;
+      height: 50px;
+      margin: 0 5px;
+      color: #0b9bd3;
+      font-size: 14px;
+      line-height: 50px;
+      vertical-align: middle;
+      background: #0b1a36;
+      border: 1px solid #0b9bd3;
+      border-radius: 2px;
+      &:hover {
+        color: #fff;
+        background: #031a46;
+        opacity: 0.9;
+      }
+    }
+    :global {
+      .ant-input-affix-wrapper {
+        display: inline;
+        .ant-input-prefix {
+          z-index: 1;
+          margin-top: 4px;
+          color: #0b9bd3;
+          font-size: 24px;
+        }
+        .ant-input {
+          padding-left: 44px;
+        }
+      }
+    }
+  }
+  .historyList {
+    margin-top: 25px;
+    padding: 0 20px 30px;
+    h4 {
+      margin-bottom: 10px;
+      padding-left: 10px;
+      color: rgba(11, 155, 211, 1);
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 17px;
+    }
+    .itemBox {
+      width: 202px;
+      height: 246px;
+      margin: 0 15px 15px;
+      background: rgba(3, 17, 50, 1);
+      border: 1px solid rgba(11, 155, 211, 1);
+      border-radius: 2px;
+      cursor: pointer;
+      .itemImg {
+        width: 182px;
+        height: 148px;
+        margin: 8px;
+        line-height: 148px;
+        text-align: center;
+        background: rgba(3, 26, 70, 1);
+        border: 1px solid rgba(11, 155, 211, 1);
+        a:hover {
+          opacity: 0.9;
+        }
+        img {
+          max-width: 100%;
+          max-height: 100%;
+        }
+      }
+      .itemCon {
+        margin: 10px;
+        p {
+          height: 18px;
+          margin-bottom: 7px;
+          overflow: hidden;
+          color: rgba(11, 155, 211, 1);
+          font-size: 12px;
+          line-height: 18px;
+          white-space: nowrap;
+          text-overflow: ellipsis;
+        }
+      }
+    }
+  }
+  .noSearch {
+    color: rgba(11, 155, 211, 1);
+    line-height: 50px;
+    text-align: center;
+  }
+  &.searchDetailCon {
+    width: 100%;
+    margin-top: 20px;
+    .searchBox {
+      margin-top: 98px;
+    }
+    .historyList {
+      padding: 23px 80px;
+    }
+  }
+}
+.paginationBox {
+  margin: 15px;
+  text-align: right;
+}

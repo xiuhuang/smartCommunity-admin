@@ -1,0 +1,89 @@
+.residentTagModal {
+  .resTagBtnBox {
+    margin: 20px 0 10px;
+    padding-right: 30px;
+    text-align: right;
+    :global {
+      .ant-btn {
+        height: 28px;
+        margin-left: 10px;
+        color: #383838;
+        font-size: 12px;
+        line-height: 28px;
+        border: 1px solid #e2e5e9;
+        &.ant-btn-primary {
+          color: #fff;
+          background: #f87805;
+          border: 1px solid #f87805;
+        }
+      }
+    }
+  }
+  .resTagCon {
+    padding-bottom: 20px;
+    .plusBtnBox {
+      padding: 15px 50px;
+      :global {
+        .ant-btn {
+          width: 100%;
+          height: 32px;
+          background: #f7f8fa;
+          border: 0;
+          border-radius: 2px;
+          i {
+            color: #adadad;
+            font-size: 16px;
+          }
+          &:hover {
+            background: #eff0f3;
+          }
+        }
+      }
+    }
+  }
+  .resigdentTagTable {
+    width: 100%;
+    text-align: center;
+    border-top: 1px solid rgba(226, 229, 233, 1);
+    thead > tr > th {
+      width: 50%;
+      height: 46px;
+      background: rgba(247, 248, 250, 1);
+      border-right: 1px solid #e2e5e9;
+      border-bottom: 1px solid rgba(226, 229, 233, 1);
+    }
+    tbody > tr > td {
+      height: 46px;
+      padding: 0 50px;
+      border-bottom: 1px solid rgba(226, 229, 233, 1);
+    }
+    tbody > tr:nth-child(2n) > td {
+      background: rgba(247, 248, 250, 1);
+    }
+    .closeIcon {
+      float: right;
+      width: 16px;
+      height: 16px;
+      margin-top: 8px;
+      margin-right: -30px;
+      color: #fff;
+      font-size: 12px;
+      line-height: 16px;
+      background: #f00;
+      border-radius: 50%;
+    }
+    :global {
+      .ant-input {
+        text-align: center;
+      }
+    }
+  }
+  :global {
+    .ant-modal-body {
+      padding: 0;
+    }
+    .formListBox .ant-form-item {
+      margin-bottom: 12px;
+    }
+  }
+}

@@ -1,0 +1,85 @@
+.qrcodeBtn {
+  height: 28px;
+  margin: 0 5px;
+  color: #fff;
+  font-size: 12px;
+  background-color: #00d0cc;
+  border: 1px solid #00d0cc;
+  border-radius: 2px;
+
+  &:hover,
+  &:active,
+  &:focus {
+    color: #fff;
+    background-color: #00b7b4;
+    border: 1px solid #00b7b4;
+  }
+}
+.modal {
+  :global {
+    .ant-modal-body {
+      padding: 0;
+    }
+    .qrcodeBoxForDownLoad {
+      width: 520px;
+      height: 732px;
+      margin: 0;
+      background-image: url('/qrcodebg.png');
+      background-size: cover;
+      .qrcode {
+        margin: 0;
+        padding-top: 260px;
+        div {
+          width: 260px;
+          margin: 0 auto;
+          padding: 10px;
+          background: #fff;
+          border-radius: 5px;
+        }
+      }
+      h4 {
+        margin-top: 40px;
+        color: #fff;
+        font-size: 30px;
+        text-align: center;
+      }
+    }
+  }
+}
+
+.modalForBatch {
+  :global {
+    .content {
+      width: 520px;
+      height: 600px;
+      overflow: auto;
+      & > h4 {
+        margin-top: 15px;
+      }
+    }
+    .qrcodeBoxForDownLoad {
+      width: 520px;
+      height: 732px;
+      margin: 0;
+      background-image: url('/qrcodebg.png');
+      background-size: cover;
+      .qrcode {
+        margin: 0;
+        padding-top: 260px;
+        div {
+          width: 260px;
+          margin: 0 auto;
+          padding: 10px;
+          background: #fff;
+          border-radius: 5px;
+        }
+      }
+      h4 {
+        margin-top: 40px;
+        color: #fff;
+        font-size: 30px;
+        text-align: center;
+      }
+    }
+  }
+}

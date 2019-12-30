@@ -1,0 +1,102 @@
+@import '~antd/es/style/themes/default.less';
+
+.vote {
+  :global {
+    .ant-radio-inner {
+      color: #00d0cc;
+      background: transparent;
+      border-color: #00d0cc;
+    }
+  }
+  .formWarp {
+    padding: 50px 0;
+  }
+  .uploadWarn {
+    position: absolute;
+    bottom: -5px;
+    left: 100px;
+    display: block;
+    width: 300px;
+    color: #fff;
+    font-size: 12px;
+  }
+  .red {
+    color: red;
+  }
+  .settingVote {
+    margin-bottom: 20px;
+    color: #0b9bd3;
+  }
+
+  .iconWarp {
+    position: relative;
+  }
+  .removeIcon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 2px 5px;
+    color: #fff;
+    background: rgba(26, 188, 154, 1);
+    border-radius: 4px;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+  .articleTitle {
+    color: #aaa;
+    font-size: 14px;
+    text-align: right;
+  }
+
+  .articleCon {
+    color: #fff;
+    font-size: 14px;
+  }
+
+  .articleOwner {
+    margin-top: 20px;
+    color: #999;
+    font-size: 14px;
+  }
+
+  .articleSource {
+    margin-bottom: 12px;
+    color: #999;
+    font-size: 14px;
+  }
+  .addSettingVote {
+    position: absolute;
+    left: 50%;
+    margin-top: 10px;
+    margin-left: -60px;
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid rgba(11, 155, 211, 1);
+    border-radius: 4px;
+  }
+  .submitBtn {
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 100px;
+  }
+  .indexText {
+    color: #0b9bd3;
+    text-align: right;
+  }
+  .RowStyle {
+    margin-top: 20px;
+  }
+}
+.settingVoteList input {
+  margin-bottom: 12px;
+  color: #0b9bd3;
+  font-size: 12px;
+  background: #0b1a36;
+  border: 1px solid #0b9bd3;
+  border-radius: 2px;
+}
+.settingVoteList .ant-row {
+  margin-bottom: 20px;
+}
